@@ -25,8 +25,8 @@
   line-height: 0.98;
   color: #00fff6;
   text-shadow:
-    rgb(0, 255, 246) 0 0 8px,
-    rgb(0, 255, 246) 0 0 20px;
+    rgb(0, 255, 246) 0 0 2px,
+    rgb(0, 255, 246) 0 0 10px;
 }
 
 .research-page__intro {
@@ -55,8 +55,8 @@
   font-size: clamp(1.8rem, 3vw, 2.5rem);
   color: #00fff6;
   text-shadow:
-    rgb(0, 255, 246) 0 0 8px,
-    rgb(0, 255, 246) 0 0 20px;
+    rgb(0, 255, 246) 0 0 2px,
+    rgb(0, 255, 246) 0 0 10px;
 }
 
 .research-card__description,
