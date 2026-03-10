@@ -50,7 +50,7 @@ function Writing() {
         <div className="writing-page__content">
           <section className="writing-page__hero">
             <div className="writing-page__hero-copy">
-              <p className="writing-page__eyebrow">Writing</p>
+              <p className="writing-page__eyebrow">Literature</p>
               <h1>{activeNovel.title}</h1>
               <p className="writing-page__subtitle">{activeNovel.subtitle}</p>
               <p className="writing-page__blurb">{activeNovel.blurb}</p>
@@ -68,12 +68,6 @@ function Writing() {
           <section className="writing-reader">
             <div className="writing-reader__toolbar">
               <div className="writing-reader__toolbar-copy">
-                <p className="writing-page__eyebrow">Reader</p>
-                <h2>Choose a chapter and read inline.</h2>
-                <p>
-                  The content is published through Google Docs, but the reading
-                  frame stays integrated into the portfolio.
-                </p>
               </div>
 
               <a
