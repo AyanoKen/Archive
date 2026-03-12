@@ -27,7 +27,7 @@ function Hero() {
             Read Research
           </Link>
           <a
-            href="https://drive.google.com/file/d/1fqeKMoI-cfjuz0h-zxXYx5JIt1k0fZJ2/view?usp=sharing"
+            href="https://drive.google.com/file/d/1jTl9vcoqmoeYk1jlJy5r94js4dtK2WYE/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-secondary"
