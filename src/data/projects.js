@@ -46,8 +46,8 @@ const projects = [
         url: "https://github.com/AyanoKen/DigimonTCG",
       },
       {
-        label: "Watch Demo",
-        url: "https://www.youtube.com/watch?v=eHd1UCbCS3c",
+        label: "Itch.io Page",
+        url: "https://ayanoken.itch.io/digimontcg",
       },
     ],
   },
@@ -93,8 +93,8 @@ const projects = [
         url: "https://github.com/AyanoKen/BattleChess",
       },
       {
-        label: "Watch Demo",
-        url: "https://www.youtube.com/watch?v=YfElz0JfVSs",
+        label: "Itch.io Page",
+        url: "https://ayanoken.itch.io/battle-chess-chess",
       },
     ],
   },
@@ -232,8 +232,8 @@ const projects = [
         url: "https://github.com/dmwhittinghill/cgt555spr24final",
       },
       {
-        label: "Watch Demo",
-        url: "https://www.youtube.com/watch?v=_0ek0nY1bs4",
+        label: "Itch.io Page",
+        url: "https://ayanoken.itch.io/his-life",
       },
     ],
   },
