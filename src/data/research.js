@@ -6,9 +6,8 @@ const research = [
     description:
       "A reinforcement-learning approach to dynamic difficulty adjustment that aims to sustain player engagement without relying on flat stat inflation.",
     abstract: [
-      "Game difficulty is one of the core factors that shapes player experience. If challenge spikes too high, players disengage from frustration. If it drops too low, interest fades just as quickly.",
-      "This publication explores reinforcement learning as a framework for dynamic difficulty adjustment. Instead of only tweaking enemy hit points or damage values, the proposed approach allows the AI to learn responses to player performance in real time and adapt difficulty in a more systemic way.",
-      "The work positions reinforcement learning as a scalable, data-driven alternative to traditional rule-based balancing for personalized challenge.",
+      "Game difficulty is one of the core factors that impact player experience and thus is important to be included when designing a game. When a game is excessively difficult, players may experience frustration and disengagement and on the other hand, if it is too easy, players quickly lose interest (Hergenrather, 2020). Maintaining a balance between challenge and enjoyment is therefore essential for player engagement and satisfaction. Traditional difficulty adjustment methods primarily rely on altering enemy parameters such as hit points, attack power, or damage output. While these methods can extend gameplay duration and often increase risk, they also fail to provide a genuine sense of adaptive challenge or variation in player experience.",
+      "This thesis explores the application of reinforcement learning (RL) as a framework for dynamic difficulty adjustment (DDA) in games. Instead of relying on static enemy stat modifications, the proposed approach enables the AI to learn optimal responses to player performance in real time. By modeling the interaction between player behavior and system feedback as a learning process, the game AI can adapt its difficulty level to sustain player engagement. The results of this research highlight the potential of reinforcement learning as a scalable, data-driven approach to personalized game difficulty, offering an alternative to traditional rule-based balancing techniques.",    
     ],
     focusAreas: [
       "Player engagement",
