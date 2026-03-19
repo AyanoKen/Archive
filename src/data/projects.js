@@ -7,6 +7,54 @@ const image = (path) => imageModules[`../assets/images/${path}`]
 
 const projects = [
   {
+    id: "isekai-knightfall",
+    eyebrow: "Unreal Engine 5 | Real Time Strategy",
+    title: "Isekai Knightfall",
+    description:
+      "A real time strategy game that blends commanding units with isekai fantasy, built with a focus on unit variety, resource management, and strategic depth.",
+    summary:
+      "Currently in development",
+    role: "Solo Developer",
+    teamSize: "1",
+    duration: "2 Weeks",
+    category: "3d",
+    featured: true,
+    videoEmbed: "https://www.youtube.com/embed/j8cdrkfS2ZU",
+    thumbnail: image("IsekaiKnightfall/GameScreenshot2.png"),
+    thumbnailAlt: "Isekai Knightfall gameplay scene with units in play",
+    gallery: [
+      image("IsekaiKnightfall/GameScreenshot1.png"),
+      image("IsekaiKnightfall/GameScreenshot2.png"),
+      image("IsekaiKnightfall/GameScreenshot3.png"),
+      image("IsekaiKnightfall/GameScreenshot4.png"),
+      image("IsekaiKnightfall/GameScreenshot5.png"),
+      image("IsekaiKnightfall/GameScreenshot6.png"),
+      image("IsekaiKnightfall/GameScreenshot7.png"),
+    ],
+    overview: [
+      "A real-time strategy combat prototype built in Unreal Engine 5 that focuses on dynamic AI behavior and scalable combat systems. The project features unit-based combat, upgradeable entities, and a modular UI system, with an emphasis on AI-driven decision-making, system design, and player interaction clarity.",
+      "The core innovation lies in designing adaptive combat logic where units intelligently detect, engage, and respond to enemies based on range, roles (e.g., melee vs ranged), and battlefield context. The system is built to be extensible, supporting future integration of reinforcement learning–based difficulty adjustment and large-scale encounters.",  
+    ],
+    highlights: [
+      "Designed a reusable parent unit architecture supporting multiple unit types (e.g., archers, melee units).",
+      "Built a range-based detection system using collision channels and sphere colliders to improve performance",
+      "Implemented a data-driven upgrade system using structs and arrays, supporting dynamic stat changes and progression.",
+      "Developed an interactive minimap system with on click navigation and unit indicators.",
+      "Developed multiple movement behaviors to support dynamic strategies and emergent combat scenarios.",
+    ],
+    techStack: ["Unreal Engine 5", "Blueprints", "AI Behavior", "Gameplay Systems", "UI Design"],
+    links: [
+      {
+        label: "GitHub Repo",
+        url: "https://github.com/AyanoKen/EpicWarRE",
+      },
+      {
+        label: "Watch Demo",
+        url: "https://www.youtube.com/watch?v=j8cdrkfS2ZU",
+      },
+    ],
+  },
+  {
     id: "tcg-engine",
     eyebrow: "Unity | Multiplayer Systems",
     title: "TCG Engine",
@@ -63,7 +111,7 @@ const projects = [
     teamSize: "1",
     duration: "2-3 Weeks",
     category: "3d",
-    featured: true,
+    featured: false,
     videoEmbed: "https://www.youtube.com/embed/YfElz0JfVSs",
     thumbnail: image("BattleChess/GameScreenshot1.png"),
     thumbnailAlt: "BattleChess board with stylized units in combat",
