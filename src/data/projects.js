@@ -16,7 +16,7 @@ const projects = [
       "Currently in development",
     role: "Solo Developer",
     teamSize: "1",
-    duration: "2 Weeks",
+    duration: "In Development",
     category: "3d",
     featured: true,
     videoEmbed: "https://www.youtube.com/embed/j8cdrkfS2ZU",
